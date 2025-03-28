@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экотар</title>
+    <link rel="stylesheet" href="../stylesG.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Остатки</h1>
+
+        <ul>
+            <li><a href="https://docs.google.com/spreadsheets/d/1Zk4k7N_2esZgiSz_QQwLiRE7j2oAViHLdjoXmpd140U/edit" target="_blank" class="group-link">Остатки З/Т</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1-YHy3AJdqD2Tvr7s4CXlmj-K4LP8P7FZIqHIsO7hLa0/edit" target="_blank" class="group-link">Остатки К</a></li>  
+            <li><a href="https://docs.google.com/spreadsheets/d/1p3nBYzZchafpGajTgetmbwE6DnLpWU73VxUPIH7xW_Q/edit" target="_blank" class="group-link">Остатки Ф</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1-9CerFKBzzDMEFXGCvx14jni9rt5U-pTubycFbc2PJQ/edit" target="_blank" class="group-link">Остатки C 05 07</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1IAQRYVJ83YWgCsVZGB4UB908BbJKO4JCJgWF-fXRuWU/edit" target="_blank" class="group-link">Остатки Д</a></li>  
+            <li><a href="https://docs.google.com/spreadsheets/d/1TJs4tsllI1TfqzS2ZtUEDqxkTujwBbZsK_ZtAeAybVE/edit" target="_blank" class="group-link">Остатки М</a></li>
+        </ul>
+
+        <a href="../group0.html" class="back-button">← Назад</a>
+    </div>
+</body>
+</html>
