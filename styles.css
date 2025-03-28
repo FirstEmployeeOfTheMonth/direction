@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Черный фон страницы */
+    margin: 0;
+    padding: 20px;
+    color: white; /* Белый текст по умолчанию */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #000; /* Черный фон контейнера */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Светлая тень */
+}
+
+h1 {
+    text-align: center;
+    color: white; /* Белый заголовок */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Оформление ссылок как кнопок */
+a {
+    display: block;
+    background-color: white; /* Белый фон кнопки */
+    color: black; /* Черный текст */
+    padding: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+a:hover {
+    background-color: #e0e0e0; /* Светло-серый при наведении */
+    transform: scale(1.05);
+}
