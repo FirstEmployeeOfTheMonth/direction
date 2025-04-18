@@ -74,6 +74,10 @@ ul {
     font-weight: bold;
     transition: background 0.3s, transform 0.2s;
 }
+.add-button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
 
 .group {
     margin-bottom: 10px;
