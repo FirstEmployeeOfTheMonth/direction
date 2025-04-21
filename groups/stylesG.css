@@ -62,11 +62,17 @@ ul {
     transform: scale(1.05);
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .add-button {
     display: inline-block;
-    margin-left: 300px;
-    background-color: white; /* Белый фон кнопки */
-    color: black; /* Черный текст */
+    background-color: white;
+    color: black;
     padding: 10px 15px;
     border-radius: 6px;
     text-decoration: none;
@@ -74,6 +80,7 @@ ul {
     font-weight: bold;
     transition: background 0.3s, transform 0.2s;
 }
+
 .add-button:hover {
     background-color: #e0e0e0;
     transform: scale(1.05);
