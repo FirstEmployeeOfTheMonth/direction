@@ -44,6 +44,13 @@ ul {
     background-color: #f0f0f0;
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .back-button {
     display: inline-block;
     margin-bottom: 20px;
@@ -60,13 +67,6 @@ ul {
 .back-button:hover {
     background-color: #e0e0e0;
     transform: scale(1.05);
-}
-
-.button-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
 }
 
 .add-button {
