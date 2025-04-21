@@ -71,6 +71,7 @@ ul {
 
 .add-button {
     display: inline-block;
+    margin-bottom: 20px;
     background-color: white;
     color: black;
     padding: 10px 15px;
