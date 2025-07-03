@@ -1,49 +1,55 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000; /* Черный фон страницы */
-    margin: 0;
-    padding: 20px;
-    color: white; /* Белый текст по умолчанию */
-}
 
-.container {
-    max-width: 600px;
-    margin: auto;
-    background: #000; /* Черный фон контейнера */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Светлая тень */
-}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            margin: 0;
+            padding: 20px;
+            color: white;
+        }
 
-h1 {
-    text-align: center;
-    color: white; /* Белый заголовок */
-}
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #000;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
 
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
+        h1 {
+            text-align: center;
+            color: white;
+        }
 
-li {
-    margin: 10px 0;
-}
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
 
-/* Оформление ссылок как кнопок */
-a {
-    display: block;
-    background-color: white; /* Белый фон кнопки */
-    color: black; /* Черный текст */
-    padding: 15px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: background 0.3s, transform 0.2s;
-}
+        li {
+            margin: 10px 0;
+        }
 
-a:hover {
-    background-color: #e0e0e0; /* Светло-серый при наведении */
-    transform: scale(1.05);
-}
+        /* Стили для ссылок с анимацией */
+        .group-link {
+            display: block;
+            background-color: white;
+            color: black;
+            padding: 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            
+            /* Настройки для 3D анимации */
+            transform-style: preserve-3d;
+            transition: transform 1s ease-in-out;
+        }
+        
+        .group-link.flip {
+            transform: perspective(500px) rotateX(360deg);
+        }
+    
