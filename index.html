@@ -10,19 +10,34 @@
     <div class="container">
         <h1>Выберите Направление:</h1>
         <ul>
-            <li><a href="groups/group1.html">1. УК Холдинг</a></li>
-            <li><a href="groups/group2.html">2. РОГ</a></li>
-            <li><a href="groups/group3.html">3. Эстейт</a></li>
-            <li><a href="groups/group4.html">4. СМР МО</a></li>
-            <li><a href="groups/group5.html">5. СМР РД</a></li>
-            <li><a href="groups/group6.html">6. ПИР</a></li>
-            <li><a href="groups/group7.html">7. Генподряд</a></li>
-            <li><a href="groups/group8.html">8. Общепит</a></li>
-            <li><a href="groups/group9.html">9. Экотар</a></li>
-            <li><a href="groups/group10.html">10. Базы МСК</a></li>
-            <li><a href="groups/group11.html">11. Концерт Холл</a></li>
-            <li><a href="groups/group0.html">Прочее</a></li>
+            <li><a href="groups/group1.html" class="group-link">1. УК Холдинг</a></li>
+            <li><a href="groups/group2.html" class="group-link">2. РОГ</a></li>
+            <li><a href="groups/group3.html" class="group-link">3. Эстейт</a></li>
+            <li><a href="groups/group4.html" class="group-link">4. СМР МО</a></li>
+            <li><a href="groups/group5.html" class="group-link">5. СМР РД</a></li>
+            <li><a href="groups/group6.html" class="group-link">6. ПИР</a></li>
+            <li><a href="groups/group7.html" class="group-link">7. Генподряд</a></li>
+            <li><a href="groups/group8.html" class="group-link">8. Общепит</a></li>
+            <li><a href="groups/group9.html" class="group-link">9. Экотар</a></li>
+            <li><a href="groups/group10.html" class="group-link">10. Базы МСК</a></li>
+            <li><a href="groups/group11.html" class="group-link">11. Концерт Холл</a></li>
+            <li><a href="groups/group0.html" class="group-link">Прочее</a></li>
         </ul>
     </div>
+
+    <script>
+        document.querySelectorAll('.group-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault(); // Отменяем стандартное поведение ссылки
+                const href = link.getAttribute('href'); // Получаем URL из атрибута href
+                
+                link.classList.add('flip'); // Добавляем класс с анимацией
+                
+                setTimeout(() => {
+                    window.location.href = href; // Переходим по ссылке после анимации
+                }, 1000); // Время должно совпадать с длительностью анимации (1s)
+            });
+        });
+    </script>
 </body>
 </html>
